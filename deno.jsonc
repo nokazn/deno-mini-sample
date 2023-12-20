@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "fmt": "deno fmt --check",
+    "lint": "deno lint",
+    "check": "deno check **/*.ts"
+  },
+  "exclude": [
+    "ignored"
+  ]
+}
